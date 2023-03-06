@@ -2,7 +2,7 @@
   "name": "@dchocoboo/dcc-sdk",
   "version": "0.0.19-beta",
   "description": "Verifiable QR SDK for EU Digital Covid Certificates",
-  "main": "lib/main.js",
+  "main": "lib/dcc.js",
   "react-native": "lib/main.js",
   "scripts": {
     "test": "mocha",
@@ -29,15 +29,19 @@
     "base45": "^3.0.0",
     "base45-js": "^1.0",
     "base64-js": "~1.5.1",
-    "cbor": "^7.0.4",
+    "cbor": "^7.0.6",
     "cross-fetch": "^3.1.5",
     "elliptic": "^6.5.4",
     "esm": "^3.2.25",
     "node-inspect-extracted": "^1.0.7",
     "pako": "^2.1",
-    "sha256-uint8array": "^0.10.5"
+    "sha256-uint8array": "^0.10.5",
+    "typescript": "^4.9.5"
   },
   "devDependencies": {
+    "@types/elliptic": "^6.4.14",
+    "@types/node": "^18.14.6",
+    "@types/pako": "^2.0.0",
     "chai": "^4.3.7",
     "mocha": "^8.4.0",
     "process": "^0.11.10",
