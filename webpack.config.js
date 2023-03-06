@@ -1,5 +1,6 @@
-const path = require('path');
-const webpack = require('webpack')
+
+import { resolve } from 'path';
+import { ProvidePlugin } from 'webpack';
 
 module.exports = {
   mode: "production",
@@ -7,7 +8,7 @@ module.exports = {
   devtool: "source-map",
   output: {
     filename: 'dcc-sdk.min.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: resolve(__dirname, 'dist'),
     library: 'DCC',
     libraryTarget: 'umd',
   },
@@ -20,7 +21,7 @@ module.exports = {
     net: 'empty',
   },
   plugins: [
-    new webpack.ProvidePlugin({
+    new ProvidePlugin({
       process: 'process/browser'
     })
   ],
