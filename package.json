@@ -1,6 +1,6 @@
 {
   "name": "@dchocoboo/dcc-sdk",
-  "version": "0.0.19-beta",
+  "version": "0.0.19-beta-3",
   "description": "Verifiable QR SDK for EU Digital Covid Certificates",
   "main": "lib/dcc.js",
   "react-native": "lib/main.js",
