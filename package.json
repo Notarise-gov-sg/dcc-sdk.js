@@ -10,10 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Path-Check/dcc-sdk.js"
+    "url": "https://github.com/Notarise-gov-sg/dcc-sdk.js"
   },
   "bugs": {
-    "url": "https://github.com/Path-Check/dcc-sdk.js/issues"
+    "url": "https://github.com/Notarise-gov-sg/dcc-sdk.js/issues"
   },
   "files": [
     "lib/**/*.js",
