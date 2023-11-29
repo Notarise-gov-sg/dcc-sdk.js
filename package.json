@@ -32,7 +32,7 @@
     "cross-fetch": "^3.1.4",
     "esm": "^3.2.25",
     "isomorphic-webcrypto": "^2.3.8",
-    "node-inspect-extracted": "^1.0.7",
+    "node-inspect-extracted": "^1.1.0",
     "pako": "^2.0.4",
     "sha256-uint8array": "^0.10.0"
   },
