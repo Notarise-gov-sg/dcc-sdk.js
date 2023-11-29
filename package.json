@@ -33,7 +33,7 @@
     "esm": "^3.2.25",
     "isomorphic-webcrypto": "^2.3.8",
     "node-inspect-extracted": "^1.0.7",
-    "pako": "^2.0.4",
+    "pako": "^2.1.0",
     "sha256-uint8array": "^0.10.0"
   },
   "devDependencies": {
