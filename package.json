@@ -29,7 +29,7 @@
     "base45-js": "^1.0",
     "base64-js": "~1.5.1",
     "cbor": "^8.0.0",
-    "cross-fetch": "^3.1.4",
+    "cross-fetch": "^3.1.8",
     "esm": "^3.2.25",
     "isomorphic-webcrypto": "^2.3.8",
     "node-inspect-extracted": "^1.0.7",
